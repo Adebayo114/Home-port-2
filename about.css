@@ -1,0 +1,619 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: white;
+    padding-bottom: -15rem;
+    padding-top: 1.5rem;
+    border-bottom-right-radius:2rem ;
+    border-bottom-left-radius:5px ;
+    padding-right:40rem;
+    padding-left: 40rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: -4.1rem;
+    gap: 2rem;
+    border: 2px solid burlywood;
+    margin-left:-0.5rem ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 6s;
+    z-index: 1000;
+}
+
+
+.navbar2{
+    display: flex;
+    margin-left: 15rem;
+}
+.navbar-child:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.navbar-child{
+margin-left: 4rem;
+}
+
+.searchbar{
+    margin-left: 2rem;
+}
+.searchbar{
+    transition: transform 0.6s;
+}
+
+.searchbar:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.logo-part{
+    margin-top: -1rem;
+    margin-left: -32rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-child.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(222, 190, 148); /* Use rgba to set transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: -3rem;
+    margin-right: -5rem;
+}
+.dc-kids{
+    transition: transform 0.6s;
+}
+
+.dc-kids:hover{
+    background-color: rgb(235, 213, 184);
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+.abt-image {
+    margin-top: 4rem;
+    margin-left: -0.5rem;
+}
+
+
+.main-about-heading {
+    position: absolute;
+    left:17rem;
+    top: 11rem;
+    background-color: white;
+    padding: 2.5rem;
+    margin-left: 15rem;
+    margin-right:20rem ;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+.about-heading {
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about-heading2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+
+.about-quotes {
+    display: flex;
+    padding-top: 0.5rem;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    margin-right: 22rem;
+    border-radius: 2rem;
+    background-color:burlywood;
+}
+/* .image-left {
+}
+.image-right {
+} */
+
+.image-left-text{
+    text-align: center;
+    margin-top: -10rem;
+    margin-left: 3rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.image-left-text1{
+    margin-top: 2rem;
+}
+
+.sec2 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+}
+.sec2-head {
+    margin-top: 15rem;
+    margin-bottom: -9rem;
+    margin-left: 17rem;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.sec2-text {
+    font-family: sans-serif;
+}
+.btn-concept {
+    font-family:cursive;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left:1rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 30rem;
+    border-radius: 5px;
+    transition: transform 0.6s;
+}
+
+.btn-concept:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+.sec-image {
+    margin-top: -3rem;
+    margin-left: -25rem;
+}
+
+.sec2-img {
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+/* next-line */
+
+.sec2-head2 {
+    margin-top: 5rem;
+    margin-bottom: -9rem;
+    margin-left:42rem;
+    font-family: cursive;
+    font-size: 2rem;
+}
+.sec2-kids {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 9rem;
+}
+.sec-image2 {
+    margin-top: -3rem;
+}
+.sec2-img2 {
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 2px;
+}
+.btn-concept2 {
+    font-family:cursive;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left:1rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 25rem;
+    border-radius: 5px;
+    transition: transform 0.6s;
+}
+
+.btn-concept2:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+.sec2-text2 {
+    font-family: sans-serif;
+
+}
+
+.sec-mainn{
+    margin-top: 20rem;
+}
+
+.second-part{
+    margin-top: 10rem;
+}
+
+.sec3 {
+   background-color: rgb(234, 221, 203);
+   border-radius: 2rem;
+   
+}
+.sec3-head {
+    text-align: center;
+    margin-top: 18rem;
+    margin-bottom: -10rem;
+    margin-left:15rem ;
+    margin-right:20rem ;
+    font-size: 4rem;
+}
+.sec3-images {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.sec3-images-kids{
+    box-shadow: 5px 5px 5px 2px white;
+    border-radius: 1.5rem;
+}
+
+
+
+.sec3-images-kids1 {
+    background-color: white;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1.5rem;
+    padding-bottom: 0.9rem;
+    border: 2px solid;
+}
+
+.sec3-text1{
+    margin-top: 2rem;
+    font-size: rem;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.sec3-text {
+    font-family: monospace;
+}
+.text-images-head {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.text-images {
+    transition: transform 0.9s;
+}
+
+.text-images:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text-images1{
+    background-color: blue;
+    padding: 3px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.text-images1:hover{
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text-images2 {
+    background-color: rgb(135, 235, 250);
+    padding: 5px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.text-images2:hover{
+    background-color:rgb(34, 130, 143);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text-images3 {
+    background-color:rgb(74, 133, 142);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.text-images3:hover{
+    background-color:rgb(67, 188, 206);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text-images4 {
+    background-color:rgb(255, 145, 246);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.text-images4:hover{
+    background-color:rgb(249, 4, 249);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sec3-num {
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
+.sec-email {
+    margin-top: 0rem;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sec4 {
+    margin-top: 10rem;
+}
+.sec4-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:25rem;
+    margin-right:28rem ;
+}
+.first-input {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+/* .first-input1 {
+   
+} */
+
+#name{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1rem;
+    width: 15rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+/* .first-input2 {
+} */
+
+#email{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1rem;
+    width: 15rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+.next-input {
+    display: flex;
+    gap: 10rem;
+    justify-content: left;
+    margin-left: 19rem;
+    margin-top: 3rem;
+}
+
+/* .next-input1 {
+    
+} */
+
+#idea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5rem;
+    width: 40.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.input-full{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+    margin-left: -3rem;
+    font-weight: bold;
+}
+
+.input-full:hover{
+    cursor: pointer;
+}
+.send-btn {
+    text-align: center;
+    font-family:cursive;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left:38rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 31rem;
+    border-radius: 5px;
+    transition: transform 0.6s;
+}
+.send-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+
+
+
+.main-footer{
+    margin-top: 5rem;
+}
+
+.footer-logo-part {
+    margin-left: 8rem;
+}
+/* .logo-text {
+    
+} */
+.footer-text1 {
+    margin-top: 1rem;
+    font-family: cursive;
+}
+.platforms {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 8rem;
+    transition: transform 0.5s;
+}
+/* .platform-kids {
+} */
+
+.platform-kids1 {
+    background-color: blue;
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids1:hover{
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids2 {
+    background-color: rgb(135, 235, 250);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids2:hover{
+    background-color:rgb(34, 130, 143);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids3 {
+    background-color:rgb(74, 133, 142);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids3:hover{
+    background-color:rgb(67, 188, 206);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids4 {
+    background-color:rgb(255, 145, 246);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids4:hover{
+
+    background-color:rgb(249, 4, 249);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-kids {
+    display: flex;
+    text-align: center;
+    margin-left: 35rem;
+    justify-content: space-evenly;
+    margin-top: -7rem;
+}
+.footer-column {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-column-kids {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-family: cursive;
+}
+
+
+.footer-column-kids2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h2:hover{
+    cursor: pointer;
+}
+.footer-column-kids2 {
+    margin-bottom: 1rem;
+    transition: transform 0.5s;
+}
+
+
+.footer-end-column {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer-end-column{
+    cursor: pointer;
+}

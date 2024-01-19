@@ -1,0 +1,699 @@
+@media  (max-width: 600px) {
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    background-color: white;
+    padding-bottom: -15rem;
+    padding-top: 1.5rem;
+    border-bottom-right-radius:2rem ;
+    border-bottom-left-radius:px ;
+    padding-right:40rem;
+    padding-left: 40rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+    gap: 2rem;
+    border: 2px solid burlywood;
+    margin-left:-0.5rem ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 6s;
+    z-index: 1000;
+}
+
+
+.navbar2{
+    display: flex;
+    margin-left: 15rem;
+}
+.navbar-child:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.navbar-child{
+margin-left: 4rem;
+}
+
+.searchbar{
+    margin-left: 2rem;
+}
+.searchbar{
+    transition: transform 0.6s;
+}
+
+.searchbar:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.logo-part{
+    margin-top: -1rem;
+    margin-left: -32rem;
+    padding-bottom: 1rem;
+}
+
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.ontop{
+    position: absolute;
+    margin-top: 15rem;
+    left: 9rem;
+    font-size: 7rem;
+    margin-right: 20rem;
+    margin-left: 2rem;
+}
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+/* Existing CSS rules */
+
+.navbar-child.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(222, 190, 148); /* Use rgba to set transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: -3rem;
+    margin-right: -5rem;
+}
+.dc-kids{
+    transition: transform 0.6s;
+}
+
+.dc-kids:hover{
+    background-color: rgb(235, 213, 184);
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.f-image{
+    margin-top: -2rem;
+    margin-left: -3rem;
+}
+
+.f-image-kid{
+    border-bottom-left-radius:rem;
+    margin-left:1rem;
+    z-index: 1rem;
+}
+
+.ontop2 {
+    margin-left:1rem;
+    z-index: 1rem;
+    font-family:cursive;
+    font-size: 1rem;
+}
+.gt {
+    z-index: 1rem;
+    font-family:cursive;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-left:1rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 39rem;
+    border-radius: 5px;
+    transition: transform 2s;
+}
+
+.gt:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+.sec2{
+    margin-top: 5rem;
+    display:block;
+    justify-content: space-evenly;
+    margin-left: 10rem;
+    padding-top: 0.5rem;
+    margin-right: -45rem;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: whitesmoke;
+}
+
+
+.sec2-kids{
+    font-weight: bolder;
+    margin-top: 4rem;
+    text-align: center;
+    box-shadow:2px 2px 2px 2px ;
+    border-bottom: none;
+    background-color: rgb(242, 224, 201);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 20px;
+    margin-left: 19rem;
+    margin-right: 19rem;
+}
+
+.vec-image{
+    margin-bottom:-0.3rem;
+    margin-left: 3px;
+}
+.head2{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec2-kids-text{
+    margin-left:5rem ;
+    margin-right:5rem ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sec2-kids-text2{
+    margin-top: 2rem;
+    transition: transform 0.3s;
+}
+
+.sec2-kids-text2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sec2-kids-text3{
+    margin-left: 0rem;
+}
+
+.head3{
+    font-size: 3rem;
+    margin-right: 42rem;
+    margin-left: 1rem;
+}
+
+.sec3 {
+    margin-left: 10rem;
+    margin-right: -50rem;
+    margin-top: 10rem;
+}
+.sec3-kids {
+    margin-right: 42rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.call-sec {
+    display: flex;
+    margin-top: -1rem;
+}
+
+.call-sec1{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.call-sec2 {
+    margin-top: 3rem;
+    margin-left:-5.5rem;
+    font-weight: bolder;
+    transition: transform 6s;
+}
+.call-sec2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.phone-icon{
+    transition: transform 0.6s;
+}
+
+.phone-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: black;
+    border-radius: 4rem;
+}
+.side-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 28rem;
+    margin-top: -18rem;
+
+}
+
+.side-image-kid{
+    border-top-right-radius: 12%;
+    border-bottom-left-radius:12% ;
+}
+
+.sec-kids-text{
+    margin-top:2rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 53rem;
+    border-radius: 5px;
+}
+
+.sec-kids-text:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+
+}
+
+.sec4 {
+    margin-top: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-right: -30rem;
+    margin-left: 20rem;
+    font-family: cursive;
+}
+.image-sec4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(242, 224, 201);
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-right: -45rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+}
+.image-sec4-kids {
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 2rem;
+    transition: transform 0.9s;
+    cursor: pointer;
+}
+
+.image-sec4-kids:hover{
+    transform: scale(1.1);
+}
+
+
+
+.logo-sec1 {
+    margin-top: 18rem;
+    margin-right: -50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-sec-kids {
+    transition: transform 0.9s;
+}
+
+.logo-sec-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.sec5 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 9rem;
+    margin-right: -55rem;
+}
+.sec5-kids {
+    margin-top: -2rem;
+    margin-bottom: 5rem;
+    margin-left:24rem;
+    margin-right:-35rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec5-kidd{
+    text-align: center  ;
+    margin-left: -5rem;
+}
+.sec5-images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    margin-right: -50rem;
+}
+/* .sec5-images-kids {
+
+} */
+
+.sec-images5{
+    border-top-right-radius: 12%;
+    border-bottom-right-radius:12% ;
+}
+.sec5-images2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: -50rem;
+}
+/* .sec5-images-kids1 {
+} */
+
+.sec5-text-main {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.sec5-text {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.sec5-logo{
+    margin-left: 14rem;
+    margin-top: -2rem;
+    transition: transform 0.5s;
+}
+
+.sec5-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sec5-text1 {
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.customer-rate {
+    margin-top: 12rem;
+    display: block;
+    justify-content: space-evenly;
+    background-color: rgb(242, 224, 201);
+    padding: 5rem;
+    margin-left:3rem ;
+    margin-right:-50rem ;
+    border-radius: 1rem;
+}
+.customer-rate-kids {
+    text-align: center;
+    font-size: 5rem;
+    font-family: cursive;
+}
+.customer-rate-kids1 {
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.sec6{
+    margin-top: 10rem;
+}
+.sec6-kid{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-right: -55rem;
+}
+
+.sec6-kids {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -4rem;
+    margin-right: -55rem;
+    font-family: cursive;
+}
+
+.sec6-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(224, 194, 154);
+    margin-top: 5rem;
+    display: block;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+    text-align: center;
+    margin-right: -50rem;
+    border-radius: 2rem;
+}
+
+.sec6-image-kids2{
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+}
+
+.sec6-image-kids3{
+    border-top-right-radius:12%;
+    border-top-left-radius:12%;
+    transition: transform 0.5s;
+}
+
+.sec6-image-kids {
+    background-color: rgb(242, 224, 201);
+    margin-right: 13rem;
+    margin-left: 13rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    transition: transform 0.5s;
+}
+
+.sec6-image-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.link-sec{
+    color: black;
+}
+
+
+.sec6-image-kids0{
+    background-color: rgb(241, 241, 241);
+    margin-right: 13rem;
+    margin-left: 13rem;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    transition: transform 0.5s;
+}
+
+.sec6-image-kids0:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sec6-text {
+    font-weight: bold;
+    margin-left:2rem ;
+    margin-right:3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.sec6-text1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.sec7 {
+    margin-top: 8rem;
+    background-color: rgb(36, 35, 35);
+    margin-left: 14rem;
+    margin-right:14rem ;
+    border-radius: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.sec7-kid {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.sec7-text {
+    text-align: center;
+    margin-top: -2rem;
+    color: white;
+    margin-bottom: 3rem;
+    font-family: cursive;
+}
+.sec7-text-btn {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: burlywood;
+    margin-left: 16rem;
+    margin-right:16rem ;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+
+.sec7-text-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: scale(1.1);
+}
+
+
+
+.main-footer{
+    margin-top: -28rem;
+}
+
+.footer-logo-part {
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
+/* .logo-text {
+    
+} */
+.footer-text1 {
+    margin-top: 1rem;
+    font-size: 1.9rem;
+    font-family: cursive;
+}
+.platforms {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 8rem;
+    transition: transform 0.5s;
+}
+/* .platform-kids {
+} */
+
+.platform-kids1 {
+    background-color: blue;
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids1:hover{
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids2 {
+    background-color: rgb(135, 235, 250);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids2:hover{
+    background-color:rgb(34, 130, 143);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids3 {
+    background-color:rgb(74, 133, 142);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids3:hover{
+    background-color:rgb(67, 188, 206);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids4 {
+    background-color:rgb(255, 145, 246);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids4:hover{
+
+    background-color:rgb(249, 4, 249);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-kids {
+    display: flex;
+    text-align: center;
+    margin-left: 45rem;
+    justify-content: space-evenly;
+    margin-top: -7rem;
+}
+.footer-column {
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.footer-column-kids {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.footer-column-kids2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-column-kids2 {
+    margin-bottom: 1rem;
+    transition: transform 0.5s;
+}
+
+
+.footer-end-column {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+
+#img-fb{
+    width: 2rem;
+}
+}

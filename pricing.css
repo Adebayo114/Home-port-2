@@ -1,0 +1,348 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    background-color: white;
+    padding-bottom: -15rem;
+    padding-top: 1.5rem;
+    border-bottom-right-radius:2rem ;
+    border-bottom-left-radius:px ;
+    padding-right:40rem;
+    padding-left: 40rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: -0.5rem;
+    gap: 2rem;
+    border: 2px solid burlywood;
+    margin-left:-0.5rem ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 6s;
+    z-index: 1000;
+}
+
+
+.navbar2{
+    display: flex;
+    margin-left: 15rem;
+}
+.navbar-child:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.navbar-child{
+margin-left: 4rem;
+}
+
+.searchbar{
+    margin-left: 2rem;
+}
+.searchbar{
+    transition: transform 0.6s;
+}
+
+.searchbar:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.logo-part{
+    margin-top: -1rem;
+    margin-left: -32rem;
+    padding-bottom: 1rem;
+}
+
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.ontop{
+    position: absolute;
+    margin-top: 15rem;
+    left: 9rem;
+    font-size: 7rem;
+    margin-right: 20rem;
+    margin-left: 2rem;
+}
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+/* Existing CSS rules */
+
+.navbar-child.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(222, 190, 148); /* Use rgba to set transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: -3rem;
+    margin-right: -5rem;
+}
+.dc-kids{
+    transition: transform 0.6s;
+}
+
+.dc-kids:hover{
+    background-color: rgb(235, 213, 184);
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main-about-heading {
+    position: absolute;
+    left:17rem;
+    top: 9.33rem;
+    background-color: white;
+    padding: 1.2rem;
+    margin-left: 15rem;
+    margin-right:20rem ;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+.about-heading {
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about-heading2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+
+
+.sec2 {
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.sec2-kids {
+    background-color:rgb(231, 212, 188,0.4);
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+.price-d {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.price-d1{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(228, 177, 110);
+}
+
+.due {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.sec2-text {
+    margin-top: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    font-family: cursive;
+}
+.gs {
+    margin-top: 1rem;
+    font-family:cursive;
+    font-size: 1rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    transition: transform 0.6s;
+}
+
+.gs:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+
+hr{
+    height:1px;
+    background-color: black;
+    border-color:black ;
+}
+
+.hr2{
+    background-color: rgb(233, 159, 63);
+    border-color: rgb(233, 159, 63);
+}
+.gs2{
+    margin-top: 1rem;
+    z-index: 1rem;
+    font-family:cursive;
+    font-size: 1rem;
+    background-color: rgb(222, 190, 148);
+    color: white;
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    transition: transform 2s;
+}
+
+.gs2:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+    transform: scale(1.1);
+}
+
+
+
+.main-footer{
+    margin-top: 5rem;
+}
+
+.footer-logo-part {
+    margin-left: 8rem;
+}
+/* .logo-text {
+    
+} */
+.footer-text1 {
+    margin-top: 1rem;
+    font-family: cursive;
+}
+.platforms {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 8rem;
+    transition: transform 0.5s;
+}
+/* .platform-kids {
+} */
+
+.platform-kids1 {
+    background-color: blue;
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids1:hover{
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids2 {
+    background-color: rgb(135, 235, 250);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids2:hover{
+    background-color:rgb(34, 130, 143);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids3 {
+    background-color:rgb(74, 133, 142);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids3:hover{
+    background-color:rgb(67, 188, 206);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids4 {
+    background-color:rgb(255, 145, 246);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids4:hover{
+
+    background-color:rgb(249, 4, 249);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-kids {
+    display: flex;
+    text-align: center;
+    margin-left: 35rem;
+    justify-content: space-evenly;
+    margin-top: -7rem;
+}
+.footer-column {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-column-kids {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-family: cursive;
+}
+
+.footer-column-kids2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-column-kids2 {
+    margin-bottom: 1rem;
+    transition: transform 0.5s;
+}
+
+
+.footer-end-column {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 4rem;
+}

@@ -1,0 +1,471 @@
+*{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: white;
+    padding-bottom: -15rem;
+    padding-top: 1.5rem;
+    border-bottom-right-radius:2rem ;
+    border-bottom-left-radius:5px ;
+    padding-right:40rem;
+    padding-left: 40rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem;
+    gap: 2rem;
+    border: 2px solid burlywood;
+    margin-left:-0.5rem ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform 6s;
+    z-index: 1000;
+}
+
+
+.navbar2{
+    display: flex;
+    margin-left: 15rem;
+}
+.navbar-child:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.navbar-child{
+margin-left: 4rem;
+}
+
+.searchbar{
+    margin-left: 2rem;
+}
+.searchbar{
+    transition: transform 0.6s;
+}
+
+.searchbar:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.logo-part{
+    margin-top: -1rem;
+    margin-left: -32rem;
+    padding-bottom: 1rem;
+}
+
+.logo-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.navbar-child.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(222, 190, 148); /* Use rgba to set transparency */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: -3rem;
+    margin-right: -5rem;
+}
+.dc-kids{
+    transition: transform 0.6s;
+}
+
+.dc-kids:hover{
+    background-color: rgb(235, 213, 184);
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.abt-image {
+    margin-top:3rem;
+    margin-left: -0.5rem;
+}
+
+
+.main-about-heading {
+    position: absolute;
+    left:17rem;
+    top: 11.7rem;
+    background-color: white;
+    padding: 2.5rem;
+    margin-left: 15rem;
+    margin-right:20rem ;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+.about-heading {
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about-heading2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+
+
+/* next-part */
+.sec2 {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.sec2-kids {
+}
+.head2 {
+    text-align: center;
+}
+.sec2-kids-text {
+    margin-left:5rem ;
+    margin-right:5rem ;
+    padding-left: -40rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec2-kids-text3 {
+}
+.sec2-kids-text2 {
+    margin-top: 2rem;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.sec2-kids-text2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/* diffrenece */
+.sec2-part {
+    display: flex;
+}
+.sec2-parts {
+}
+
+.sec2-parts-text {
+    margin-left:1rem ;
+    margin-right:1rem ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec2-parts-text3 {
+}
+.sec2-parts-text2 {
+    margin-top: 2rem;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.sec2-parts-text2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/* Take Note here */
+#e3{
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 2px 2px burlywood;
+    margin-right:-5rem;
+    margin-left: 8rem;
+    padding-bottom: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+ /* And here */
+ /* u used margin right and left to manipulate the third div for it to make it fit and to affect the other 2 divs */
+#e3i{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px;
+    margin-right:5rem;
+    margin-left: 8rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+
+.sec3 {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(238, 220, 196);
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-left:5rem;
+    margin-right:5rem ;
+    border-radius: 2rem;
+    box-shadow:1px 5px 5px 5px;
+}
+
+.sec3-head{
+    padding-top: 3cqmin;
+    margin-top: 10rem;
+    margin-bottom: 0.1rem;
+}
+.sec5-kids {
+    text-align: center;
+    margin-bottom: 8rem;
+    font-family: cursive;
+    font-size: 1rem;
+}
+.sec5-kidd {
+}
+.sec3-kid {
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-sec3 {
+    margin-left: 3rem;
+}
+.logo-sec3 {
+    display: flex;
+    gap: 15rem;
+    margin-left: -10rem;
+    font-size: 1rem;
+}
+.logo-sec3-kids {
+}
+.img-sec3-text { 
+    margin-top: -11rem;
+    text-align: center;
+    margin-left: 20rem;
+    font-size: 1rem;
+}
+.img-sec3-text1 {
+   font-family: cursive;
+    margin-left:16rem;
+    margin-right:18rem ;
+    font-size: 1rem;
+}
+
+
+/* ////// */
+.sec3-1 {
+    margin-top: 10rem;
+    display: flex;
+    margin-bottom: 7rem;
+}
+.sec3-kid-1 {
+    margin-left: -5rem;
+    
+}
+.img-sec3-text-1-1 {
+    margin-top: 9rem;
+    margin-left: 19rem;
+    font-size: 1.5rem;
+}
+.img-sec3-text1-2 {
+    margin-left:16rem ;
+    margin-right: -3rem;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.logo-sec3{
+}
+.logo-sec3-img-1 {
+}
+.sec3-main-image {
+    margin-right:16rem ;
+}
+.logo-sec3-img-1-4{
+    margin-left: -38rem;
+}
+
+.logo-sec3-img-1{
+    margin-top: -5rem;
+    margin-right: 2rem;
+}
+
+.sec7 {
+    margin-top: 8rem;
+    background-color: rgb(36, 35, 35);
+    margin-left: 14rem;
+    margin-right:14rem ;
+    border-radius: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.sec7-kid {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.sec7-text {
+    text-align: center;
+    margin-top: -2rem;
+    color: white;
+    margin-bottom: 3rem;
+    font-family: cursive;
+}
+.sec7-text-btn {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: burlywood;
+    margin-left: 16rem;
+    margin-right:16rem ;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+
+.sec7-text-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: scale(1.1);
+}
+
+.main-footer{
+    margin-top: 5rem;
+}
+
+.footer-logo-part {
+    margin-left: 8rem;
+}
+/* .logo-text {
+    
+} */
+.footer-text1 {
+    margin-top: 1rem;
+    font-family: cursive;
+}
+.platforms {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 8rem;
+    transition: transform 0.5s;
+}
+/* .platform-kids {
+} */
+
+.platform-kids1 {
+    background-color: blue;
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids1:hover{
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids2 {
+    background-color: rgb(135, 235, 250);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids2:hover{
+    background-color:rgb(34, 130, 143);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids3 {
+    background-color:rgb(74, 133, 142);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids3:hover{
+    background-color:rgb(67, 188, 206);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids4 {
+    background-color:rgb(255, 145, 246);
+    padding: 6px;
+    border-radius: 50rem;
+    transition: transform 0.5s;
+}
+
+.platform-kids4:hover{
+
+    background-color:rgb(249, 4, 249);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.platform-kids:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-kids {
+    display: flex;
+    text-align: center;
+    margin-left: 35rem;
+    justify-content: space-evenly;
+    margin-top: -7rem;
+}
+.footer-column {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-column-kids {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-family: cursive;
+}
+
+.footer-column-kids2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-column-kids2 {
+    margin-bottom: 1rem;
+    transition: transform 0.5s;
+}
+
+
+.footer-end-column {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 4rem;
+    transition: transform 0.6s;
+}
+
+.footer-end-column:hover{
+    transform: scale(1.1);
+    cursor: 7;
+}
+
+
